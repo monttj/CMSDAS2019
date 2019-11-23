@@ -34,6 +34,11 @@ pip install scikit-learn
 
 git clone https://github.com/monttj/CMSDAS2019.git
 
-## open Jupyter Notebook for 
+## open Jupyter Notebook 
+
+To use Jupyter Notebook in local server, 
+please refer to this link:
+[Jupyter in local server](https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchoolBeijing2019PreExerciseFourthSet#Exercise_13_Using_Jupyter_with_P)
+
 
 
