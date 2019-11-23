@@ -1,4 +1,4 @@
-# CMSDAS2019
+# Prerequisites for CMSDAS2019
 
 ## Setup environment 
 
