@@ -25,7 +25,7 @@ Please check if you have two files : `myntuple_ttH.root` and `myntuple_ttbb.root
 
 In this exercise, there are only two variables: 
 `dR` and `Mbb` (distance and invariant mass between two b-tagged jets with minimum angle)
-You can add more variables by modifying the [ana.C macro](https://github.com/monttj/CMSDAS2019/blob/master/ana.C).
+You can add more variables by modifying the macro [ana.C](https://github.com/monttj/CMSDAS2019/blob/master/ana.C).
 But we will leave it to you as this is not ROOT exercise. 
 
 ## Install packages for DNN exercise
