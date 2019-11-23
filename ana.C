@@ -61,9 +61,11 @@ void ana(){
   // Enable multi-threading
   ROOT::EnableImplicitMT();
 
-  ROOT::RDataFrame df_ttbb("Events","/home/cmsdas/public/store/mc/RunIIAutumn18NanoAODv5/ttbb_4FS_ckm_NNPDF31_TuneCP5_amcatnlo_madspin_pythia/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19_ext1-v1/110000/0C13A890-B620-EA4D-BE7B-303C80D215FD.root");
+  ROOT::RDataFrame df_ttbb("Events",{"/home/cmsdas/public/store/mc/RunIIAutumn18NanoAODv5/ttbb_4FS_ckm_NNPDF31_TuneCP5_amcatnlo_madspin_pythia/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19_ext1-v1/110000/0C13A890-B620-EA4D-BE7B-303C80D215FD.root","/home/cmsdas/public/store/mc/RunIIAutumn18NanoAODv5/ttbb_4FS_ckm_NNPDF31_TuneCP5_amcatnlo_madspin_pythia/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19_ext1-v1/110000/805F1C32-B299-7244-99DC-715523FB050D.root"}
+);
 
-  ROOT::RDataFrame df_ttH("Events","/home/cmsdas/public/store/mc/RunIIAutumn18NanoAODv5/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19-v1/110000/0C188E39-E5D8-DE47-A7DC-09F0F64BFBC4.root");
+  ROOT::RDataFrame df_ttH("Events","/home/cmsdas/public/store/mc/RunIIAutumn18NanoAODv5/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/Nano1June2019_102X_upgrade2018_realistic_v19-v1/110000/0C188E39-E5D8-DE47-A7DC-09F0F64BFBC4.root"
+);
 
   auto fileName_ttbb = "myntuple_ttbb.root";
   auto fileName_ttH = "myntuple_ttH.root";
