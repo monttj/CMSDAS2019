@@ -30,9 +30,9 @@ virtualenv --system-site-packages -p python ./venv
 
 source ./venv/bin/activate 
 
-pip install tensorflow \
-pip install keras \ 
-pip install scikit-learn \ 
+pip install tensorflow\
+pip install keras\ 
+pip install scikit-learn\ 
 
 
 ## Open Jupyter Notebook 
