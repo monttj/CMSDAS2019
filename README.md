@@ -20,7 +20,7 @@ root -l ana.C
 
 This will create root files that contain the input variables. 
 In this exercise, there are only two variables: 
-dR and Mbb (distance and invariant mass between two b-tagged jets with minimum angle)
+'dR' and 'Mbb' (distance and invariant mass between two b-tagged jets with minimum angle)
 
 check if you have two files : myntuple_ttH.root and myntuple_ttbb.root   
 
@@ -31,8 +31,8 @@ virtualenv --system-site-packages -p python ./venv
 source ./venv/bin/activate 
 
 pip install tensorflow\
-pip install keras\ 
-pip install scikit-learn\ 
+pip install keras\\ 
+pip install scikit-learn\\
 
 
 ## Open Jupyter Notebook 
