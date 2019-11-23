@@ -24,21 +24,32 @@ This will create root files that contain the input variables.
 In this exercise, there are only two variables: 
 `dR` and `Mbb` (distance and invariant mass between two b-tagged jets with minimum angle)
 
-check if you have two files : myntuple_ttH.root and myntuple_ttbb.root   
+check if you have two files : `myntuple_ttH.root` and `myntuple_ttbb.root`  
 
 ## Install packages for DNN exercise
+
+Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 ```
 virtualenv --system-site-packages -p python ./venv 
 ```
+
+Activate the virtual environment
 ```
 source ./venv/bin/activate 
 ```
 
+When virtualenv is active, your shell prompt is prefixed with (venv).
+
+Install packages within a virtual environment without affecting the host system setup.
 Install necessary packages
 ```
 pip install tensorflow
 pip install keras
 pip install scikit-leurn
+```
+And to exit virtualenv later:
+```
+deactivate  
 ```
 
 ## Open Jupyter Notebook 
