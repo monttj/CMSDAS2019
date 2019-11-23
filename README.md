@@ -16,6 +16,8 @@ This will create root files that contain the input variables.
 In this exercise, there are only two variables: 
 dR and Mbb (distance and invariant mass between two b-tagged jets with minimum angle)
 
+check if you have two files : myntuple_ttH.root and myntuple_ttbb.root   
+
 ## Install packages 
 
 virtualenv --system-site-packages -p python ./venv 
@@ -27,3 +29,11 @@ pip install tensorflow
 pip install keras
 
 pip install scikit-learn
+
+## clone github repository for DNN exercise
+
+git clone https://github.com/monttj/CMSDAS2019.git
+
+## open Jupyter Notebook for 
+
+
