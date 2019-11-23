@@ -32,6 +32,7 @@ But we will leave it to you as this is not ROOT exercise.
 
 Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 ```
+pip install virtualenv
 virtualenv --system-site-packages -p python ./venv 
 ```
 
