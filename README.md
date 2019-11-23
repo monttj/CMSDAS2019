@@ -50,6 +50,7 @@ pip install keras
 pip install scikit-leurn
 pip install pandas
 pip install matplotlib
+pip install ipykernel
 ```
 And to exit virtualenv later:
 ```
@@ -61,3 +62,5 @@ deactivate
 To use Jupyter Notebook in local server, 
 please refer to this link:
 [Jupyter in local server](https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchoolBeijing2019PreExerciseFourthSet#Exercise_13_Using_Jupyter_with_P)
+
+Once you open the Jupyther, change the kernel to tensorflow
