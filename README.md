@@ -48,6 +48,8 @@ Install necessary packages
 pip install tensorflow
 pip install keras
 pip install scikit-leurn
+pip install pandas
+pip install matplotlib
 ```
 And to exit virtualenv later:
 ```
