@@ -21,10 +21,12 @@ We will run macro with RDataFrame over NanoAOD samples.
 root -l ana.C
 ```
 This will create root files that contain the input variables. 
+Please check if you have two files : `myntuple_ttH.root` and `myntuple_ttbb.root`  
+
 In this exercise, there are only two variables: 
 `dR` and `Mbb` (distance and invariant mass between two b-tagged jets with minimum angle)
-
-check if you have two files : `myntuple_ttH.root` and `myntuple_ttbb.root`  
+You can add more variables by modifying the [ana.C macro](https://github.com/monttj/CMSDAS2019/blob/master/ana.C).
+But we will leave it to you as this is not ROOT exercise. 
 
 ## Install packages for DNN exercise
 
