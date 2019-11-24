@@ -48,7 +48,7 @@ Install necessary packages
 ```
 pip install tensorflow
 pip install keras
-pip install scikit-leurn
+pip install scikit-learn
 pip install pandas
 pip install matplotlib
 pip install ipykernel
