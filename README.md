@@ -52,6 +52,7 @@ pip install scikit-learn
 pip install pandas
 pip install matplotlib
 pip install ipykernel
+python -m ipykernel install --user --name=tensorflow
 ```
 And to exit virtualenv later:
 ```
