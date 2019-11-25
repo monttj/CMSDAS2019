@@ -32,6 +32,7 @@ But we will leave it to you as this is not ROOT exercise.
 
 Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 ```
+pip install --user virtualenv
 virtualenv --system-site-packages -p python ./venv 
 ```
 
@@ -47,11 +48,18 @@ Install necessary packages
 ```
 pip install tensorflow
 pip install keras
-pip install scikit-leurn
+pip install scikit-learn
 pip install pandas
 pip install matplotlib
-pip install ipykernel
 ```
+
+Since we will use Jupyter Notebook, we will have to use tensorflow in Jupyter Notebook.
+For this, follow two lines are required.
+```
+pip install ipykernel
+python -m ipykernel install --user --name=tensorflow
+```
+
 And to exit virtualenv later:
 ```
 deactivate  
@@ -63,4 +71,6 @@ To use Jupyter Notebook in local server,
 please refer to this link:
 [Jupyter in local server](https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchoolBeijing2019PreExerciseFourthSet#Exercise_13_Using_Jupyter_with_P)
 
-Once you open the Jupyther, change the kernel to tensorflow
+Once you open the Jupyther, change the kernel to tensorflow.
+
+You will have to follow this [exercise](https://github.com/monttj/CMSDAS2019/blob/master/ML_exercise_basic.ipynb).
