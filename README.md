@@ -51,9 +51,15 @@ pip install keras
 pip install scikit-learn
 pip install pandas
 pip install matplotlib
+```
+
+Since we will use Jupyter Notebook, we will have to use tensorflow in Jupyter Notebook.
+For this, follow two lines are required.
+```
 pip install ipykernel
 python -m ipykernel install --user --name=tensorflow
 ```
+
 And to exit virtualenv later:
 ```
 deactivate  
