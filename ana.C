@@ -22,6 +22,7 @@ float compute_mass(rvec_f pt, rvec_f eta, rvec_f phi, rvec_f mass, rvec_f btag)
           ROOT::Math::PtEtaPhiMVector p1(pt[i], eta[i], phi[i], mass[i]);
           ROOT::Math::PtEtaPhiMVector p2(pt[j], eta[j], phi[j], mass[j]);
           mbb = (p1 + p2).M();
+          dR = tmp;
         }    
       } 
     }
@@ -34,11 +35,10 @@ float compute_dR(rvec_f pt, rvec_f eta, rvec_f phi, rvec_f mass, rvec_f btag)
 
     float dR = 999;
     float mbb = 999;
-    float tmp = DeltaR(eta[2], eta[3], phi[2], phi[3]);
     for( int i = 0; i < pt.size()-1 ; i++){
       for( int j = i+1; j < pt.size() ; j++){
         if( btag[i] <=  0.2770 || btag[j] <= 0.2770) continue;
-        float tmp = DeltaR(eta[2], eta[3], phi[2], phi[3]);
+        float tmp = DeltaR(eta[i], eta[j], phi[i], phi[j]);
         if(tmp < dR) {
           dR = tmp;
         }
