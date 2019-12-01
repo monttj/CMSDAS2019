@@ -28,9 +28,10 @@ In this exercise, there are only two variables:
 You can add more variables by modifying the macro [ana.C](https://github.com/monttj/CMSDAS2019/blob/master/ana.C).
 But we will leave it to you as this is not ROOT exercise. 
 
-## (Skip) Packages for DNN exercise are already installed in PKU cluster.
+## (Skip) Install packages for DNN exercise 
+Packages are already installed in PKU cluster.
 <details>
-<summary> In case when needed, install packages for DNN exercise </summary>  
+<summary> In case only when needed, install packages for DNN exercise </summary>  
   
 Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 ```
