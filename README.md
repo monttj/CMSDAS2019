@@ -28,8 +28,11 @@ In this exercise, there are only two variables:
 You can add more variables by modifying the macro [ana.C](https://github.com/monttj/CMSDAS2019/blob/master/ana.C).
 But we will leave it to you as this is not ROOT exercise. 
 
-## Install packages for DNN exercise
-
+## (Skip) Install packages for DNN exercise 
+Packages are already installed in PKU cluster.
+<details>
+<summary> In case only when needed, install packages for DNN exercise </summary>  
+  
 Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 ```
 pip install --user virtualenv
@@ -64,12 +67,13 @@ And to exit virtualenv later:
 ```
 deactivate  
 ```
+</details>
 
 ## Open Jupyter Notebook 
 
 To use Jupyter Notebook in local server, 
 please refer to this link:
-[Jupyter in local server](https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchoolBeijing2019PreExerciseFourthSet#Exercise_13_Using_Jupyter_with_P)
+[Jupyter in local server](https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchoolBeijing2019PreExerciseFourthSet#Exercise_13_Using_Jupyter_with_P) (*See Exercise 13 of pre-exercise fourthset*)
 
 Once you open the Jupyther, change the kernel to tensorflow.
 
