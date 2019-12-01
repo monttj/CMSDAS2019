@@ -29,7 +29,9 @@ You can add more variables by modifying the macro [ana.C](https://github.com/mon
 But we will leave it to you as this is not ROOT exercise. 
 
 ## Install packages for DNN exercise
-
+<details>
+<summary> Install packages for DNN exercise </summary>  
+  
 Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 ```
 pip install --user virtualenv
@@ -64,6 +66,7 @@ And to exit virtualenv later:
 ```
 deactivate  
 ```
+</details>
 
 ## Open Jupyter Notebook 
 
